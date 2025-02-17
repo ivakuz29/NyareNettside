@@ -24,12 +24,12 @@ gap: 8px;
  }
 
  .Logo p {
- 
     font-family: 'Fira Code', monospace;
     font-weight: 400; /* You can use 300, 400, 500, 600, or 700 */
     font-size: 18px;
     text-decoration: none; /* Optional: Removes underline */
     color: #ffffff;
+
 }
 
 .Logo img {
