@@ -1,0 +1,75 @@
+header {
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 32px 0px 8px;
+gap: 555px;
+
+position: absolute;
+width: 1061px;
+height: 61px;
+left: 171px;
+top: 0px;
+
+/* background */
+background: #282C33;
+ }
+
+ .Logo {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+ }
+
+ .Logo p {
+ 
+    font-family: 'Fira Code', monospace;
+    font-weight: 400; /* You can use 300, 400, 500, 600, or 700 */
+    font-size: 18px;
+    text-decoration: none; /* Optional: Removes underline */
+    color: #ffffff;
+}
+
+.Logo img {
+    width: 16px;
+    height: 16px;
+    object-fit: cover; /* Ensures the image fills the area */
+}
+
+
+
+.Navbar {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+}
+
+
+li {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+font: 
+}
+
+a::before {
+    content: "#";
+    color: #007AFF
+}
+
+a:hover{
+    color: white;
+}
+
+a {
+    font-family: 'Fira Code', monospace;
+    font-weight: 400; /* You can use 300, 400, 500, 600, or 700 */
+    font-size: 18px;
+    text-decoration: none; /* Optional: Removes underline */
+    color: #ABB2BF;
+}
