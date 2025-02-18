@@ -6,21 +6,20 @@ padding: 32px 0px 8px;
 gap: 555px;
 
 position: absolute;
-width: 1061px;
-height: 61px;
-left: 171px;
-top: 0px;
+
 
 /* background */
-background: #282C33;
+background: none;
  }
 
  .Logo {
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
+padding: 10px;
 gap: 8px;
+
+
  }
 
  .Logo p {
@@ -44,7 +43,7 @@ gap: 8px;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 0px;
+padding: 10px;
 gap: 32px;
 }
 
@@ -72,4 +71,17 @@ a {
     font-size: 18px;
     text-decoration: none; /* Optional: Removes underline */
     color: #ABB2BF;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+isolation: isolate;
+}
+
+body {
+background: #282C33;
 }
