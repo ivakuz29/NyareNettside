@@ -14,10 +14,10 @@ background: none;
  .header-container {
     width: auto; 
     height: 61px; /* Fixed height */
-    display: flex; /* Makes everything inside go in a row */
+    display: flex; 
     align-items: center; /* Ensures all items are at the same level */
-    justify-content: space-between; /* Spreads items evenly */
     margin: 0 auto;  
+    gap: 500px
 }
 
 
@@ -36,15 +36,15 @@ gap: 8px;
  .Logo p {
     font-family: 'Fira Code', monospace;
     font-weight: 400; /* You can use 300, 400, 500, 600, or 700 */
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none; /* Optional: Removes underline */
     color: #ffffff;
 
 }
 
 .Logo img {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     object-fit: cover; /* Ensures the image fills the area */
 }
 
@@ -64,7 +64,6 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-font: 
 }
 
 a::before {
@@ -79,7 +78,7 @@ a:hover{
 a {
     font-family: 'Fira Code', monospace;
     font-weight: 400; /* You can use 300, 400, 500, 600, or 700 */
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none; /* Optional: Removes underline */
     color: #ABB2BF;
 }
