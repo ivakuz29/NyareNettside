@@ -12,6 +12,17 @@ position: absolute;
 background: none;
  }
 
+ .header-container {
+    width: min(1061px, 100%); /* Max width is 1061px, but it shrinks if needed */
+    height: 61px; /* Fixed height */
+    display: flex; /* Makes everything inside go in a row */
+    align-items: center; /* Ensures all items are at the same level */
+    justify-content: space-between; /* Spreads items evenly */
+}
+
+
+
+
  .Logo {
 display: flex;
 flex-direction: row;
@@ -20,7 +31,7 @@ padding: 10px;
 gap: 8px;
 
 
- }
+}
 
  .Logo p {
     font-family: 'Fira Code', monospace;
