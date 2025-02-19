@@ -13,7 +13,7 @@ background: none;
 
  .header-container {
     width: auto; 
-    height: 61px; /* Fixed height */
+    height: 6px; /* Fixed height */
     display: flex; 
     align-items: center; /* Ensures all items are at the same level */
     margin: 0 auto;  
