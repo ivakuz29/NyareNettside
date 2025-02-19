@@ -98,10 +98,11 @@ background: #282C33;
 
 .headertab {
     /* Line 10 (Stroke) */
-width: 19px;
+width: 22px;
 height: 1px;
 transform: scale(0.5);
 transform-origin: center;
+margin-left: 20px
 }
 
 
