@@ -100,8 +100,8 @@ background: #282C33;
     /* Line 10 (Stroke) */
 width: 19px;
 height: 1px;
-
-/* gray */
-
-
+transform: scale(0.5);
+transform-origin: center;
 }
+
+
