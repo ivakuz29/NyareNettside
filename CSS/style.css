@@ -97,5 +97,11 @@ background: #282C33;
 }
 
 .headertab {
-    transform: scale(0.7);
+    /* Line 10 (Stroke) */
+width: 191px;
+height: 1px;
+
+/* gray */
+
+
 }
