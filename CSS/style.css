@@ -1,3 +1,9 @@
+
+* {
+    caret-color: transparent;
+}
+
+
 header {
     display: flex;
     flex-direction: row;
