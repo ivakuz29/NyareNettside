@@ -101,6 +101,11 @@ ul {
     isolation: isolate;
 }
 
+
+
+
+
+
 body {
     background: #282C33;
 }
@@ -199,10 +204,12 @@ p {
     font-family: 'Fira Code', monospace;
     background: none;
     color: white;
+    transition: 0.4s ease-in-out;
     
 }
 
 .contact-button:hover {
     background: rgba(0, 122, 255, 0.5);
+    
 }
 
