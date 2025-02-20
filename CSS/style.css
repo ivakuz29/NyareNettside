@@ -60,7 +60,7 @@ header {
     flex-direction: row;
     align-items: flex-start;
     padding: 10px;
-    gap: 32px;
+
 }
 
 
@@ -95,7 +95,7 @@ ul {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 4px;
+    gap: 32px;
     isolation: isolate;
 }
 
@@ -129,3 +129,33 @@ body {
 .headertab a::before {
     content: none; /* Removes any content added before the link */
 }
+
+section {
+
+position: absolute;
+width: 1000px;
+height: 355px;
+left: 171px;
+top: 191px;
+
+}
+
+.developer {
+
+}
+
+p {
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+    display: inline;
+    text-shadow: 1px 1px 3px #007AFF; /* X-offset, Y-offset, Blur-radius, Color */
+}
+
+
+.web-designer {
+    color: #007AFF;
+}
+ 
+
