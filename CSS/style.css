@@ -154,20 +154,22 @@ top: 191px;
 }
 
 .developer {
-position: absolute;
-width: 1000px;
-height: 355px;
-left: 171px;
-top: 191px;
+    position: absolute;
+    width: 1000px;
+    height: 355px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .Developer-text {
-position: absolute;
-width: 537px;
-height: 84px;
-margin-left: 130px;
-
+    position: absolute;
+    width: 537px;
+    height: 84px;
+    left: 0; /* Aligns it to the left of .developer */
+    margin-left: 0; /* Remove margin if not needed */
 }
+
 
 p {
     font-family: 'Fira Code', monospace;
@@ -230,4 +232,13 @@ left: 426px;
 top: -70px;
 }
 
+.dots1 {
+    scale: 0.5; 
+position: absolute;
+
+left: 860px;
+top: 170px;
+
+
+}
 
