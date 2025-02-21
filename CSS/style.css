@@ -5,13 +5,17 @@
 
 
 header {
+    width: auto;
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
     padding: 33px 0px 8px;
 
-    margin: 0, auto;
-    position: relative;
+    margin-left: 50px
+    left: 50%;
+    top: 50%;
+    
 
     /* background */
     background: none;
@@ -114,7 +118,11 @@ ul {
 
 body {
     background: #282C33;
+    justify-content: center;
+    
+
 }
+
 
 .headertab {
     width: 22px;
@@ -154,20 +162,21 @@ top: 191px;
 }
 
 .developer {
-    position: absolute;
+    
     width: 1000px;
     height: 355px;
+
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
 .Developer-text {
-    position: absolute;
     width: 537px;
     height: 84px;
     left: 0; /* Aligns it to the left of .developer */
     margin-left: 0; /* Remove margin if not needed */
+    
 }
 
 
