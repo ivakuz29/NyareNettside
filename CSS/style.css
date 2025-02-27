@@ -112,15 +112,10 @@ ul {
 }
 
 
-
-
-
-
 body {
     background: #282C33;
     justify-content: center;
     
-
 }
 
 
@@ -130,7 +125,6 @@ body {
     transform: scale(0.5);
     transform-origin: center;
     margin-left: 20px;
-    position: absolute;
     top: -5px;
 
 }
@@ -153,7 +147,7 @@ body {
 
 section {
 
-position: absolute;
+
 width: 1000px;
 height: 355px;
 left: 171px;
@@ -166,9 +160,7 @@ top: 191px;
     width: 1000px;
     height: 355px;
 
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 130px auto;  
 }
 
 .Developer-text {
@@ -204,7 +196,7 @@ p {
     color: #57a0ed; 
     
 
-    position: absolute;
+
     top: 100px;
     width: 463px; 
     display: block; 
@@ -236,15 +228,15 @@ p {
 
 .union1 {
     scale: 0.5; 
-position: absolute;
+    position: absolute;
 left: 426px;
 top: -70px;
 }
 
 .dots1 {
     scale: 0.5; 
-position: absolute;
 
+position: absolute;
 left: 860px;
 top: 170px;
 
