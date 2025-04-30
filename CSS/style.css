@@ -30,6 +30,7 @@ header {
     /* Ensures all items are at the same level */
     margin: 0 auto;
     gap: 500px; 
+    gap: flex; 
 }
 
 
@@ -83,10 +84,7 @@ li {
     padding: 0px;
 }
 
-a::before {
-    content: "#";
-    color: #007AFF
-}
+
 
 a:hover {
     color: white;
@@ -146,15 +144,14 @@ body {
     content: none; /* Removes any content added before the link */
 }
 
+
 section {
-
-
-width: 1000px;
-height: 355px;
-left: 171px;
-top: 191px;
-
+    width: 1000px;
+    height: 355px;
+    left: 171px;
+    top: 191px;
 }
+
 
 .Developer-container{
     justify-content: space-between;^
@@ -237,19 +234,270 @@ p {
 }
 
 .union1 {
-    scale: 0.5; 
-    position: absolute;
-left: 530px;
-top: -70px;
+
+scale: 0.5; 
+position: relative;
+left: 500px;
+top:  -230px;
 }
 
 .dots1 {
-    scale: 0.5; 
 
-position: absolute;
-left: 860px;
-top: 170px;
+scale: 0.5; 
+position: relative;
+left: 500px;
+top: -120px;
 
 
 }
 
+h2{
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 3px #007AFF; /* X-offset, Y-offset, Blur-radius, Color */
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.project-box {
+    background-color: #1e2228;
+    border: 1px solid #007AFF;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Fira Code', monospace;
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+.project-box {
+    background-color: #1e2228;
+    border: 1px solid #007AFF;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: 'Fira Code', monospace;
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 122, 255, 0.4);
+}
+
+.project-box h3 {
+    margin: 15px 0 10px;
+    color: #007AFF;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.project-box p {
+    font-size: 14px;
+    color: #c0c0c0;
+    text-shadow: none;
+    margin-bottom: 0;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Remove the # from links inside .project-link */
+.project-link a::before {
+    content: none !important; /* Prevent the # symbol from appearing */
+}
+
+
+
+/* General link styles */
+a {
+    font-family: 'Fira Code', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ABB2BF;
+}
+
+/* Kommentarseksjon - wrapper */
+.kommentarer-wrapper {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #f9f9fb;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Overskrifter */
+.kommentarer-wrapper h1,
+.kommentarer-wrapper h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 24px;
+}
+
+/* Ny kommentar-skjema */
+.skriv-kommentar textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: vertical;
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-family: inherit;
+    background: #fff;
+}
+
+.skriv-kommentar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.skriv-kommentar button:hover {
+    background-color: #0056b3;
+}
+
+/* Kommentarboks */
+.kommentar {
+    background-color: #ffffff;
+    border-left: 4px solid #007bff;
+    padding: 20px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+/* Kommentar-hode (navn og tid) */
+.kommentar .hode {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Kommentartekst */
+.kommentar .innhold {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Svar-knapp */
+.svar-knapp {
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.svar-knapp:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Svar-skjema */
+.svar-skjema {
+    display: none;
+    margin-top: 10px;
+}
+
+.svar-skjema textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.svar-skjema button {
+    margin-top: 8px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.svar-skjema button:hover {
+    background-color: #1e7e34;
+}
+
+/* Svar (reply) */
+.svar {
+    background-color: #f0f2f5;
+    padding: 16px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-left: 3px solid #17a2b8;
+    border-radius: 8px;
+}
+
+.svar .hode {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #555;
+}
+
+.svar .innhold {
+    font-size: 15px;
+    color: #222;
+    margin-top: 6px;
+}
