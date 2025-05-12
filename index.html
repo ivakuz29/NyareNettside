@@ -1,109 +1,93 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
-    <!-- Link to custom CSS file -->
-    <link rel="stylesheet" href="CSS/style.css">
-    <!-- Link to normalize.css to ensure consistent styling across browsers -->
-    <link rel="stylesheet" href="CSS/normalize.css">
-    <!-- Google tag (gtag.js) -->
-
+   <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/normalize.css">
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P7KVZ9R8DL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P7KVZ9R8DL');
-</script>
 
 <body>
     <header>
-        <!-- Top bar with icon links -->
         <div class="headertab">
-            <!-- Decorative line image -->
-            <img src="GRAPHICS/Graphic line.png">
-            <!-- Link to GitHub with logo -->
+            <img src="/GRAPHICS/Graphic line.png">
             <a href="https://github.com">
-                <img class="hover-effect" src="GRAPHICS/Github.png">
+                <img class="hover-effect" src="/GRAPHICS/Github.png">
             </a>
-            <!-- Link to basketball site with icon -->
             <a href="https://www.basketball.com">
-                <img class="hover-effect" src="GRAPHICS/Basketball.png">
+                <img class="hover-effect" src="/GRAPHICS/Basketball.png">
             </a>
-            <!-- Link to Figma site with icon -->
             <a href="https://figma.com">
-                <img class="hover-effect" src="GRAPHICS/Figma.png">
+                <img class="hover-effect" src="/GRAPHICS/Figma.png">
             </a>
         </div>
-
-        <!-- Main header container -->
         <div class="header-container">
-            <!-- Logo section -->
             <div class="Logo">
-                <img src="GRAPHICS/Logo1.png">
+                <img src="/GRAPHICS/Logo1.png">
                 <p>Ivan</p>
             </div>
-            <!-- Navigation bar (currently empty) -->
             <div class="Navbar">
                 <ul>
-                    <!-- Navigation items can be added here -->
+                    <li><a href="/HTML/kommentarer.php">kommentar</a></li>
+					<a href="/php-crash/logout.php"> Logg ut</a>
+                    <a href="/Html/profile.php"> Endre navn</a>
+                    <a href="/php-crash/delete_user.php" onclick="return confirm('Er du sikker på at du vil slette brukeren?');"> Slett bruker</a>
                 </ul>
+
             </div>
         </div>
-    </header>
 
-    <!-- Section introducing the developer -->
+    </header>
     <section class="Developer-container">
-        <div class="Developer-text">
-            <p>
-                Ivan is a
-                <!-- Highlight "web designer" text -->
+            <div class="Developer-text">
+                <p>
+                    Ivan is a
                 <p class="web-designer">web designer </p>
                 <p>and </p>
-                <!-- Highlight "front-end developer" text -->
                 <p class="front-end">front-end developer</p>
-            </p>
-            <!-- Additional descriptive text -->
-            <p class="he-works">
-                He works behind the scenes crafting responsive websites where technologies meet creativity
-            </p>
-            <!-- Contact button -->
-            <button class="contact-button">
-                Contact me !!
-            </button>
-            <!-- Decorative background elements -->
-            <img src="GRAPHICS/Union.png" class="union1">
-            <img src="GRAPHICS/Dots.png" class="dots1">
+                </p>
+                <p class="he-works">
+                    He works behind the scenes crafting responsive websites where technologies meet creativity
+                </p>
+                <button class="contact-button">
+                    Contact me !!
+                </button>
+                <img src="/GRAPHICS/Union.png" class="union1">
+                <img src="/GRAPHICS/Dots.png" class="dots1">
+            </div>
         </div>
     </section>
-
-    <!-- Projects section -->
-    <section class="projects">
-        <div class="project-container">
-
-            <!-- Project 1: Math trainer -->
-            <div class="project-box">
-                <a href="https://github.com/ivakuz29/Mathgames" class="project-link">
-                    <img src="BILDER/Mathgamesexample.png" alt="Project 1" class="project-image">
-                    <h3>Math trainer</h3>
-                    <p>Was made as my first Javascript project to make learning math more fun</p>
-                </a>
-            </div>
-
-            <!-- Project 2: Recipe book -->
-            <div class="project-box">
-                <a href="https://ivakuz29.github.io/Recipebook/" target="_blank" class="project-link">
-                    <img src="BILDER/Exampleimagerecipe.jpg" alt="Project 2" class="project-image">
-                    <h3>Recipe book</h3>
-                    <p>Another example of a project where the main focus is based on Javascript.</p>
-                </a>
-            </div>
-
+<section class="projects">
+    <div class="project-container">
+        <div class="project-box">
+            <a href="https://github.com/ivakuz29/Mathgames" class="project-link">
+                <img src="/BILDER/Mathgamesexample.png" alt="Math Trainer" class="project-image">
+                <h3>Math Trainer</h3>
+                <p>My first JavaScript project – a game to help make practicing math fun and engaging.</p>
+            </a>
         </div>
-    </section>
+        <div class="project-box">
+            <a href="https://ivakuz29.github.io/Recipebook/" class="project-link">
+                <img src="/BILDER/Exampleimagerecipe.jpg" alt="Recipe Book" class="project-image">
+                <h3>Recipe Book</h3>
+                <p>A beginner-friendly recipe collection site built with HTML, CSS, and JavaScript.</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="javascriptfun">
+    <h3>JavaScript funksjoner</h3>
+<div class="buttons">
+  <button id="backgroundBtn" class="javabt">Change background</button>
+  <button class="javabt">Other button</button>
+  <button class="javabt">Another button</button>
+</div>
+
+</section>
+<section>
+    <img src="/BILDER/Bentsdrawing.jpg" alt ="Bent" class = "resize">
+</section>
+<script src="/JAVASCRIPT/script.js"></script>
 </body>
 </html>
